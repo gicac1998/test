@@ -1,0 +1,138 @@
+/*
+Theme Name: Interview Theme
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Template: twentyseventeen
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Tags: one-column,two-columns,right-sidebar,flexible-header,accessibility-ready,custom-colors,custom-header,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,block-patterns
+Version: 2.5.1608543865
+Updated: 2020-12-21 09:44:25
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.site-content {
+  padding: 0px;
+}
+.titlePeople {
+  font-size: 40px;
+}
+.categoryTitle {
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+.link {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: black;
+  background: transparent;
+  border: 2px solid black;
+  transition: .5s;
+}
+.link:hover {
+  background: black;
+  color: white;
+}
+.category {
+  font-size: 20px;
+  color: #c4c4c4 !important;
+}
+.card {
+  background-color:#f2f2f2;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px 20px;
+}
+
+.nameLink {
+  margin-bottom: 0px;
+  transition: .5s;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.nameLink:hover {
+  color: white;
+  background: #c7c7c7;
+  padding: 10px 20px;
+  border-radius:20px 20px 0px 0px;
+}
+p {
+  padding: 0px 40px !important;
+  text-align: center;
+}
+small.category {
+  list-style-type: none;
+}
+h1.titlePeople {
+  padding-top: 30px;
+}
+
+.catTitle{
+  font-size: 25px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+.catItem {
+  color: blue;
+  transition: .5s;
+}
+
+
+/* ==========
+   CONTACT
+========== */
+.contactTitle {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.contactContainer {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.labelStyle {
+  margin-top: 20px;;
+}
+.button {
+  background: white;
+  color: black;
+  border: 3px solid black;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  margin-top: 30px;
+}
+.mb {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+input:required {
+  background:#ffe3e3;
+}
+input::placeholder {
+  color: #d1d1d1;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .contactContainer {
+    width: 80%;
+  }
+  p {
+    font-size: 15px;
+  }
+}
