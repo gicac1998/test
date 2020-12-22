@@ -15,7 +15,7 @@
     );
     $peopleList = new WP_Query($args);
     if($peopleList->have_posts()):
-      while($peopleList->have_posts()): $peopleList->the_post();
+      while($peopleList->have_posts()): $peopleList->the_post($categories);
   ?>
   <div class="card">
   <a  href="<?php the_permalink(); ?>"><h1 class="nameLink"><?php the_title(); ?></h1></a>
